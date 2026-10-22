@@ -112,21 +112,24 @@ def _whisper(ruta, texto):
 
 def generar(pieza, ruta_pieza):
     """Genera audio y palabras, actualiza pieza['voz'] y devuelve los créditos estimados."""
-    clave = os.environ.get('ELEVENLABS_API_KEY', '').strip()
-    if not clave:
-        raise SinClave('falta el secret ELEVENLABS_API_KEY en el repo')
     texto = ' '.join(pieza['frases'])
     if '!' in texto or '¡' in texto:
         raise SystemExit(f"PARADA: {pieza['slug']} lleva exclamaciones (regla TTS)")
-    estimado = math.ceil(len(texto) * 0.55)
-    if estimado > _libre():
-        raise TopeAlcanzado(f'{pieza["slug"]}: necesita ~{estimado} créditos y quedan {_libre()} este mes')
-
     carpeta = pathlib.Path(ruta_pieza).parent / 'audio'
     carpeta.mkdir(exist_ok=True)
     base = f"{pieza['slug']}-{pieza['variante']}"
     mp3 = carpeta / f'{base}.mp3'
     js = carpeta / f'{base}.json'
+    if mp3.exists() and js.exists():  # ya pagada en una ejecución anterior: no se regenera
+        pieza['voz'] = {'audio': str(mp3.relative_to(RAIZ)), 'palabras': str(js.relative_to(RAIZ)),
+                        'origen': f'ElevenLabs {MODELO} (reutilizada)', 'creditos': 0}
+        return 0
+    estimado = math.ceil(len(texto) * 0.55)
+    if estimado > _libre():
+        raise TopeAlcanzado(f'{pieza["slug"]}: necesita ~{estimado} créditos y quedan {_libre()} este mes')
+    clave = os.environ.get('ELEVENLABS_API_KEY', '').strip()
+    if not clave:
+        raise SinClave('falta el secret ELEVENLABS_API_KEY en el repo')
     cuerpo = {'text': texto, 'model_id': MODELO}
     origen, revisar = 'with-timestamps', False
     try:

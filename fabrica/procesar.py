@@ -100,7 +100,9 @@ def main():
         try:
             if 'voz' not in p:
                 creditos = voz.generar(p, ruta)
-                resumen(f"- 🎙️ {p['slug']}: voz generada ({creditos} créditos, {p['voz']['origen']})")
+                # se guarda ya: si el montaje falla, la voz no se vuelve a pagar
+                ruta.write_text(json.dumps(p, ensure_ascii=False, indent=1), encoding='utf-8')
+                resumen(f"- 🎙️ {p['slug']}: voz lista ({creditos} créditos, {p['voz']['origen']})")
             carpeta = RAIZ / 'fabrica' / 'pruebas' if p.get('prueba') else RAIZ / lote_de(p['fecha'])
             destino = carpeta / f"{p['slug']}-{p['variante']}.mp4"
             destino.parent.mkdir(exist_ok=True)
