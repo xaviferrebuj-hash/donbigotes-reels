@@ -4,7 +4,7 @@
  "fecha": "2026-12-31T12:00:00+01:00",
  "variante": "es",
  "plantilla": "ilustraciones",
- "estado": "aprobado",
+ "estado": "renderizado",
  "frases": [
   "Hola, soy Don Bigotes.",
   "Esto es una prueba de la fábrica de vídeos.",
@@ -29,6 +29,22 @@
    "estado": "aprobado",
    "fecha": "2026-10-22T23:42:00+02:00",
    "por": "Claude (prueba técnica, autorizada en el plan)"
+  },
+  {
+   "estado": "renderizado",
+   "fecha": "2026-10-22T22:02:38+00:00",
+   "por": "fábrica"
   }
- ]
+ ],
+ "voz": {
+  "audio": "fabrica/cola/2026-12/audio/prueba-voz-es.mp3",
+  "palabras": "fabrica/cola/2026-12/audio/prueba-voz-es.json",
+  "origen": "ElevenLabs eleven_v3 (reutilizada)",
+  "creditos": 0
+ },
+ "salida": {
+  "mp4": "fabrica/pruebas/prueba-voz-es.mp4",
+  "sha256": "f2e418c83750e841f47f9b9903cff7b0c33b5e46ada7ba75cd39a71d334a9230",
+  "bytes": 2377131
+ }
 }

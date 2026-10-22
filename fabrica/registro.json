@@ -1,11 +1,17 @@
 {
- "actualizado": "2026-10-22T21:30:39+00:00",
+ "actualizado": "2026-10-22T22:02:38+00:00",
  "eventos": [
   {
    "fecha": "2026-10-22T21:30:39+00:00",
    "pieza": "existe",
    "estado": "programado",
    "nota": "primera pieza, montada y programada por Claude el 22-oct (Metricool: TikTok 403584985, YouTube 403585041)"
+  },
+  {
+   "fecha": "2026-10-22T22:02:38+00:00",
+   "pieza": "prueba-voz",
+   "estado": "renderizado",
+   "mp4": "fabrica/pruebas/prueba-voz-es.mp4"
   }
  ]
 }
