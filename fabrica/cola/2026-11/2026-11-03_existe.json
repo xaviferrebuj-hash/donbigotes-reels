@@ -1,0 +1,75 @@
+{
+ "slug": "existe",
+ "fecha": "2026-11-03T20:00:00+01:00",
+ "variante": "419",
+ "plantilla": "ilustraciones",
+ "estado": "programado",
+ "frases": [
+  "Algún día te preguntará si existo.",
+  "Soy Don Bigotes, y llevo toda la vida pasando por las casas de noche.",
+  "Mientras quede un diente debajo de una almohada, seguiré viniendo.",
+  "Si te lo pregunta, dile que mire debajo de la almohada por la mañana.",
+  "Busca Don Bigotes en tu tienda de apps…"
+ ],
+ "gancho": "¿Existe el Ratón Pérez?",
+ "categoria": "La app del Ratón Pérez",
+ "planos": [
+  {
+   "archivo": "cap10-1.webp",
+   "cx": 0.371,
+   "deriva": 0.02
+  },
+  {
+   "archivo": "cap06-4.webp",
+   "cx": 0.4,
+   "deriva": 0.04
+  },
+  {
+   "archivo": "cap10-6.webp",
+   "cx": 0.52,
+   "deriva": 0.05
+  },
+  {
+   "archivo": "cap10-3.webp",
+   "cx": 0.42,
+   "deriva": 0.04
+  }
+ ],
+ "voz": {
+  "audio": "fabrica/cola/2026-11/audio/existe-es-1.mp3",
+  "palabras": "fabrica/cola/2026-11/audio/existe-es-1.json",
+  "origen": "Mac, locucion-lote.py, toma es-1 (22-oct)"
+ },
+ "salida": {
+  "mp4": "lote-2026-11-02/existe-419.mp4",
+  "sha256": "ff9456dd4176bcc7dff408c9d3bd0543a02d82db3eb0a5f4dff50e34aff8e9fc",
+  "bytes": 4578029
+ },
+ "textos": {
+  "tiktok": "¿Existe el Ratón Pérez? Algún día te lo preguntará. 🦷 Don Bigotes lleva toda la vida pasando por las casas de noche: mientras quede un diente debajo de una almohada, seguirá viniendo. Busca Don Bigotes en tu tienda de apps.\n\n#ratonperez #dientedeleche #ratoncitoperez #donbigotes",
+  "youtube_titulo": "¿Existe el Ratón Pérez? Qué decir cuando te lo pregunte",
+  "youtube_descripcion": "¿Existe el Ratón Pérez? Algún día te lo preguntará. Don Bigotes lleva toda la vida pasando por las casas de noche: mientras quede un diente debajo de una almohada, seguirá viniendo. Busca Don Bigotes en tu tienda de apps.\n\nQué contestar según su edad: https://donbigotes.app/es-419/el-ratoncito-perez-existe/?utm_source=youtube&utm_medium=social&utm_campaign=existe&utm_content=419\n\n#ratonperez #dientedeleche #ratoncitoperez #donbigotes",
+  "youtube_para_ninos": false
+ },
+ "metricool": {
+  "tiktok": 403584985,
+  "youtube": 403585041
+ },
+ "historial": [
+  {
+   "estado": "aprobado",
+   "fecha": "2026-10-22T23:15:00+02:00",
+   "por": "Xavi"
+  },
+  {
+   "estado": "renderizado",
+   "fecha": "2026-10-22T23:02:00+02:00",
+   "por": "Claude (montaje en la nube)"
+  },
+  {
+   "estado": "programado",
+   "fecha": "2026-10-22T23:18:00+02:00",
+   "por": "Claude (conector de Metricool)"
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+{
+ "vigilante_activo": false,
+ "nota": "Se pone a true cuando las tareas de Claude (mensual, martes y jueves) estén conectadas a la fábrica."
+}
