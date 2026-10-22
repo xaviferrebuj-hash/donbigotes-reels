@@ -1,7 +1,13 @@
 {
  "2026-10": {
-  "creditos": 0,
-  "piezas": [],
+  "creditos": 47,
+  "piezas": [
+   {
+    "slug": "prueba-voz",
+    "creditos": 47,
+    "fecha": "2026-10-22T22:00:11+00:00"
+   }
+  ],
   "nota": "La locución de «existe» (248 créditos) se generó en el Mac y cuenta en su contador, no aquí."
  }
 }
