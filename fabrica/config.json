@@ -1,4 +1,4 @@
 {
- "vigilante_activo": false,
- "nota": "Se pone a true cuando las tareas de Claude (mensual, martes y jueves) estén conectadas a la fábrica."
+ "vigilante_activo": true,
+ "nota": "Activado el 22-oct-2026 al crear las tareas de Claude: guiones del mes (día 25), programar (martes) y comprobar (jueves)."
 }
