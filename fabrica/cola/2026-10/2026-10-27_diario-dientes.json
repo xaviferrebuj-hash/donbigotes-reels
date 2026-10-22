@@ -1,0 +1,27 @@
+{
+ "slug": "diario-dientes",
+ "fecha": "2026-10-27T20:00:00+01:00",
+ "variante": "es",
+ "plantilla": "capturas-app (montaje de Claude fuera de la fábrica)",
+ "estado": "programado",
+ "nota": "Pieza anterior a la fábrica; se registra aquí para que el vigilante y las tareas la vean.",
+ "salida": {
+  "mp4": "lote-2026-10-26/diario-dientes-es.mp4"
+ },
+ "metricool": {
+  "tiktok": 403583980,
+  "youtube": 402224952
+ },
+ "historial": [
+  {
+   "estado": "programado",
+   "fecha": "2026-10-21T16:51:00+02:00",
+   "por": "Claude"
+  },
+  {
+   "estado": "programado",
+   "fecha": "2026-10-22T23:16:00+02:00",
+   "por": "Claude: contenido promocional activado en TikTok"
+  }
+ ]
+}
