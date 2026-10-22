@@ -101,7 +101,8 @@ def main():
             if 'voz' not in p:
                 creditos = voz.generar(p, ruta)
                 resumen(f"- 🎙️ {p['slug']}: voz generada ({creditos} créditos, {p['voz']['origen']})")
-            destino = RAIZ / lote_de(p['fecha']) / f"{p['slug']}-{p['variante']}.mp4"
+            carpeta = RAIZ / 'fabrica' / 'pruebas' if p.get('prueba') else RAIZ / lote_de(p['fecha'])
+            destino = carpeta / f"{p['slug']}-{p['variante']}.mp4"
             destino.parent.mkdir(exist_ok=True)
             montar.montar(ruta, destino)
             if destino.stat().st_size > MAX_BYTES:
