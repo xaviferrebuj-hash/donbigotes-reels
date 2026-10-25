@@ -1,0 +1,52 @@
+{
+ "slug": "otros-paises",
+ "fecha": "2026-11-24T20:00:00+01:00",
+ "variante": "es",
+ "plantilla": "ilustraciones",
+ "estado": "preparado",
+ "formato": "tradiciones en otros países",
+ "frases": [
+  "No en todas partes me encargo yo de los dientes.",
+  "En Francia va mi prima, la Petite Souris, y en Inglaterra, un hada.",
+  "En Grecia, el diente se lanza al tejado para que salga uno fuerte.",
+  "Y en las casas donde se habla español, paso yo.",
+  "Busca Don Bigotes en tu tienda de apps…"
+ ],
+ "gancho": "¿Y fuera de España, quién va?",
+ "categoria": "La app del Ratoncito Pérez",
+ "planos": [
+  {
+   "archivo": "cap09-4.webp",
+   "cx": 0.5,
+   "deriva": 0.03
+  },
+  {
+   "archivo": "cap09-1.webp",
+   "cx": 0.45,
+   "deriva": 0.04
+  },
+  {
+   "archivo": "cap02-1.webp",
+   "cx": 0.37,
+   "deriva": 0.03
+  },
+  {
+   "archivo": "cap04-5.webp",
+   "cx": 0.55,
+   "deriva": 0.04
+  }
+ ],
+ "textos": {
+  "tiktok": "¿Quién recoge los dientes fuera de España? En Francia, la Petite Souris; en Inglaterra, un hada; en Grecia, el diente se lanza al tejado para que salga uno fuerte. Y en las casas donde se habla español, pasa el Ratoncito Pérez. Busca Don Bigotes en tu tienda de apps.\n\n#ratoncitoperez #dientedeleche #tradiciones #donbigotes",
+  "youtube_titulo": "Ratoncito Pérez: quién recoge los dientes en otros países",
+  "youtube_descripcion": "¿Quién recoge los dientes fuera de España? En Francia, la Petite Souris; en Inglaterra, un hada; en Grecia, el diente se lanza al tejado para que salga uno fuerte. Y en las casas donde se habla español, pasa el Ratoncito Pérez. Busca Don Bigotes en tu tienda de apps.\n\nDe dónde viene el Ratoncito Pérez y su cuento: https://donbigotes.app/cuento-raton-perez/?utm_source=youtube&utm_medium=social&utm_campaign=otros-paises&utm_content=es\n\n#ratoncitoperez #dientedeleche #tradiciones #donbigotes",
+  "youtube_para_ninos": false
+ },
+ "historial": [
+  {
+   "estado": "preparado",
+   "fecha": "2026-10-25T10:05:00+01:00",
+   "por": "Claude (tarea mensual)"
+  }
+ ]
+}

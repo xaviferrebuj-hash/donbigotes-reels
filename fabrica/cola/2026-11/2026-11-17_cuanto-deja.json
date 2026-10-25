@@ -1,0 +1,52 @@
+{
+ "slug": "cuanto-deja",
+ "fecha": "2026-11-17T20:00:00+01:00",
+ "variante": "419",
+ "plantilla": "ilustraciones",
+ "estado": "preparado",
+ "formato": "pregunta-curiosidad",
+ "frases": [
+  "Muchos papás me preguntan cuánto dejo por cada diente.",
+  "No hay una cifra fija, cada casa tiene su costumbre.",
+  "A veces es una moneda, y a veces una carta con su nombre.",
+  "Lo que importa es que en la mañana sepa que pasé por ahí.",
+  "Busca Don Bigotes en tu tienda de apps…"
+ ],
+ "gancho": "¿Cuánto deja el Ratón Pérez?",
+ "categoria": "La app del Ratón Pérez",
+ "planos": [
+  {
+   "archivo": "cap10-4.webp",
+   "cx": 0.37,
+   "deriva": 0.03
+  },
+  {
+   "archivo": "cap07-2.webp",
+   "cx": 0.55,
+   "deriva": 0.04
+  },
+  {
+   "archivo": "cap05-5.webp",
+   "cx": 0.5,
+   "deriva": 0.03
+  },
+  {
+   "archivo": "cap10-2.webp",
+   "cx": 0.45,
+   "deriva": 0.04
+  }
+ ],
+ "textos": {
+  "tiktok": "¿Cuánto deja el Ratón Pérez por cada diente? No hay una cifra fija: cada casa tiene su costumbre. A veces es una moneda, y a veces una carta con su nombre. Lo que importa es que en la mañana sepa que pasó por ahí. Busca Don Bigotes en tu tienda de apps.\n\n#ratonperez #dientedeleche #ratoncitoperez #donbigotes",
+  "youtube_titulo": "¿Cuánto deja el Ratón Pérez por cada diente?",
+  "youtube_descripcion": "¿Cuánto deja el Ratón Pérez por cada diente? No hay una cifra fija: cada casa tiene su costumbre. A veces es una moneda, y a veces una carta con su nombre. Lo que importa es que en la mañana sepa que pasó por ahí. Busca Don Bigotes en tu tienda de apps.\n\nLa carta del Ratón Pérez con su nombre, para imprimir: https://donbigotes.app/es-419/carta-para-imprimir/?utm_source=youtube&utm_medium=social&utm_campaign=cuanto-deja&utm_content=419\n\n#ratonperez #dientedeleche #ratoncitoperez #donbigotes",
+  "youtube_para_ninos": false
+ },
+ "historial": [
+  {
+   "estado": "preparado",
+   "fecha": "2026-10-25T10:05:00+01:00",
+   "por": "Claude (tarea mensual)"
+  }
+ ]
+}

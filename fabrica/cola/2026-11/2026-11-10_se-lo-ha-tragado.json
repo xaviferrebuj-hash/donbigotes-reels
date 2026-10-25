@@ -1,0 +1,52 @@
+{
+ "slug": "se-lo-ha-tragado",
+ "fecha": "2026-11-10T20:00:00+01:00",
+ "variante": "es",
+ "plantilla": "ilustraciones",
+ "estado": "preparado",
+ "formato": "consejo práctico",
+ "frases": [
+  "Si se ha tragado el diente, que sepas que me pasa más de lo que crees.",
+  "Para saber que se le ha caído, no necesito verlo.",
+  "Que me escriba una nota contándolo y la deje debajo de la almohada.",
+  "Esa noche pasaré igual que con cualquier otro diente.",
+  "Busca Don Bigotes en tu tienda de apps…"
+ ],
+ "gancho": "¿Se ha tragado el diente?",
+ "categoria": "La app del Ratoncito Pérez",
+ "planos": [
+  {
+   "archivo": "cap01-3.webp",
+   "cx": 0.4,
+   "deriva": 0.03
+  },
+  {
+   "archivo": "cap03-3.webp",
+   "cx": 0.48,
+   "deriva": 0.04
+  },
+  {
+   "archivo": "cap08-1.webp",
+   "cx": 0.38,
+   "deriva": 0.03
+  },
+  {
+   "archivo": "cap10-5.webp",
+   "cx": 0.42,
+   "deriva": 0.04
+  }
+ ],
+ "textos": {
+  "tiktok": "¿Se ha tragado el diente? Al Ratoncito Pérez le pasa más de lo que crees. Para saber que se le ha caído no necesita verlo: basta una nota debajo de la almohada contándolo. Esa noche pasará igual. Busca Don Bigotes en tu tienda de apps.\n\n#ratoncitoperez #dientedeleche #crianza #donbigotes",
+  "youtube_titulo": "¿Se ha tragado el diente? Qué hacer con el Ratoncito Pérez",
+  "youtube_descripcion": "¿Se ha tragado el diente? Al Ratoncito Pérez le pasa más de lo que crees. Para saber que se le ha caído no necesita verlo: basta una nota debajo de la almohada contándolo. Esa noche pasará igual. Busca Don Bigotes en tu tienda de apps.\n\nApunta cada diente, también el que se tragó, en el diario de dientes (gratis): https://donbigotes.app/diario-dientes-de-leche/?utm_source=youtube&utm_medium=social&utm_campaign=se-lo-ha-tragado&utm_content=es\n\n#ratoncitoperez #dientedeleche #crianza #donbigotes",
+  "youtube_para_ninos": false
+ },
+ "historial": [
+  {
+   "estado": "preparado",
+   "fecha": "2026-10-25T10:05:00+01:00",
+   "por": "Claude (tarea mensual)"
+  }
+ ]
+}
