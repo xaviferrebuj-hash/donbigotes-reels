@@ -3,7 +3,7 @@
  "fecha": "2026-11-10T20:00:00+01:00",
  "variante": "es",
  "plantilla": "ilustraciones",
- "estado": "aprobado",
+ "estado": "renderizado",
  "formato": "consejo práctico",
  "frases": [
   "Si se ha tragado el diente, que sepas que me pasa más de lo que crees.",
@@ -52,6 +52,22 @@
    "estado": "aprobado",
    "fecha": "2026-10-26T21:39:00+01:00",
    "por": "Xavi"
+  },
+  {
+   "estado": "renderizado",
+   "fecha": "2026-10-26T20:42:44+00:00",
+   "por": "fábrica"
   }
- ]
+ ],
+ "voz": {
+  "audio": "fabrica/cola/2026-11/audio/se-lo-ha-tragado-es.mp3",
+  "palabras": "fabrica/cola/2026-11/audio/se-lo-ha-tragado-es.json",
+  "origen": "ElevenLabs eleven_v3 (with-timestamps)",
+  "creditos": 124
+ },
+ "salida": {
+  "mp4": "lote-2026-11-09/se-lo-ha-tragado-es.mp4",
+  "sha256": "ed08210c0b71f5ecdd68e539b008ab73feacf7be871752168eca4e7808cbca5a",
+  "bytes": 4542335
+ }
 }

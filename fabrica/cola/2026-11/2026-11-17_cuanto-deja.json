@@ -3,7 +3,7 @@
  "fecha": "2026-11-17T20:00:00+01:00",
  "variante": "419",
  "plantilla": "ilustraciones",
- "estado": "aprobado",
+ "estado": "renderizado",
  "formato": "pregunta-curiosidad",
  "frases": [
   "Muchos papás me preguntan cuánto dejo por cada diente.",
@@ -52,6 +52,22 @@
    "estado": "aprobado",
    "fecha": "2026-10-26T21:39:00+01:00",
    "por": "Xavi"
+  },
+  {
+   "estado": "renderizado",
+   "fecha": "2026-10-26T20:43:34+00:00",
+   "por": "fábrica"
   }
- ]
+ ],
+ "voz": {
+  "audio": "fabrica/cola/2026-11/audio/cuanto-deja-419.mp3",
+  "palabras": "fabrica/cola/2026-11/audio/cuanto-deja-419.json",
+  "origen": "ElevenLabs eleven_v3 (with-timestamps)",
+  "creditos": 116
+ },
+ "salida": {
+  "mp4": "lote-2026-11-16/cuanto-deja-419.mp4",
+  "sha256": "1a373ab014c1f8ea61abd88de66bee892ba873d8e50c409f77827bceb019aa6c",
+  "bytes": 4524580
+ }
 }

@@ -3,7 +3,7 @@
  "fecha": "2026-11-24T20:00:00+01:00",
  "variante": "es",
  "plantilla": "ilustraciones",
- "estado": "aprobado",
+ "estado": "renderizado",
  "formato": "tradiciones en otros países",
  "frases": [
   "No en todas partes me encargo yo de los dientes.",
@@ -52,6 +52,22 @@
    "estado": "aprobado",
    "fecha": "2026-10-26T21:39:00+01:00",
    "por": "Xavi"
+  },
+  {
+   "estado": "renderizado",
+   "fecha": "2026-10-26T20:44:22+00:00",
+   "por": "fábrica"
   }
- ]
+ ],
+ "voz": {
+  "audio": "fabrica/cola/2026-11/audio/otros-paises-es.mp3",
+  "palabras": "fabrica/cola/2026-11/audio/otros-paises-es.json",
+  "origen": "ElevenLabs eleven_v3 (with-timestamps)",
+  "creditos": 119
+ },
+ "salida": {
+  "mp4": "lote-2026-11-23/otros-paises-es.mp4",
+  "sha256": "bb3c6ae34eab7170fe6fdb6cd3556f8c76df2d926e5074c084bb78e3495c0923",
+  "bytes": 4477461
+ }
 }

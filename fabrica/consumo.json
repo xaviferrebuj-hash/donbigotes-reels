@@ -1,11 +1,26 @@
 {
  "2026-10": {
-  "creditos": 47,
+  "creditos": 406,
   "piezas": [
    {
     "slug": "prueba-voz",
     "creditos": 47,
     "fecha": "2026-10-22T22:00:11+00:00"
+   },
+   {
+    "slug": "se-lo-ha-tragado",
+    "creditos": 124,
+    "fecha": "2026-10-26T20:41:59+00:00"
+   },
+   {
+    "slug": "cuanto-deja",
+    "creditos": 116,
+    "fecha": "2026-10-26T20:42:51+00:00"
+   },
+   {
+    "slug": "otros-paises",
+    "creditos": 119,
+    "fecha": "2026-10-26T20:43:40+00:00"
    }
   ],
   "nota": "La locución de «existe» (248 créditos) se generó en el Mac y cuenta en su contador, no aquí."
