@@ -3,7 +3,7 @@
  "fecha": "2026-11-10T20:00:00+01:00",
  "variante": "es",
  "plantilla": "ilustraciones",
- "estado": "preparado",
+ "estado": "aprobado",
  "formato": "consejo práctico",
  "frases": [
   "Si se ha tragado el diente, que sepas que me pasa más de lo que crees.",
@@ -47,6 +47,11 @@
    "estado": "preparado",
    "fecha": "2026-10-25T10:05:00+01:00",
    "por": "Claude (tarea mensual)"
+  },
+  {
+   "estado": "aprobado",
+   "fecha": "2026-10-26T21:39:00+01:00",
+   "por": "Xavi"
   }
  ]
 }

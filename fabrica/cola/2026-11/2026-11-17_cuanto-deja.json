@@ -3,7 +3,7 @@
  "fecha": "2026-11-17T20:00:00+01:00",
  "variante": "419",
  "plantilla": "ilustraciones",
- "estado": "preparado",
+ "estado": "aprobado",
  "formato": "pregunta-curiosidad",
  "frases": [
   "Muchos papás me preguntan cuánto dejo por cada diente.",
@@ -47,6 +47,11 @@
    "estado": "preparado",
    "fecha": "2026-10-25T10:05:00+01:00",
    "por": "Claude (tarea mensual)"
+  },
+  {
+   "estado": "aprobado",
+   "fecha": "2026-10-26T21:39:00+01:00",
+   "por": "Xavi"
   }
  ]
 }
