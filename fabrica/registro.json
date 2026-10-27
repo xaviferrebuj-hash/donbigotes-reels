@@ -1,35 +1,42 @@
 {
- "actualizado": "2026-10-26T20:44:22+00:00",
- "eventos": [
-  {
-   "fecha": "2026-10-22T21:30:39+00:00",
-   "pieza": "existe",
-   "estado": "programado",
-   "nota": "primera pieza, montada y programada por Claude el 22-oct (Metricool: TikTok 403584985, YouTube 403585041)"
-  },
-  {
-   "fecha": "2026-10-22T22:02:38+00:00",
-   "pieza": "prueba-voz",
-   "estado": "renderizado",
-   "mp4": "fabrica/pruebas/prueba-voz-es.mp4"
-  },
-  {
-   "fecha": "2026-10-26T20:42:44+00:00",
-   "pieza": "se-lo-ha-tragado",
-   "estado": "renderizado",
-   "mp4": "lote-2026-11-09/se-lo-ha-tragado-es.mp4"
-  },
-  {
-   "fecha": "2026-10-26T20:43:34+00:00",
-   "pieza": "cuanto-deja",
-   "estado": "renderizado",
-   "mp4": "lote-2026-11-16/cuanto-deja-419.mp4"
-  },
-  {
-   "fecha": "2026-10-26T20:44:22+00:00",
-   "pieza": "otros-paises",
-   "estado": "renderizado",
-   "mp4": "lote-2026-11-23/otros-paises-es.mp4"
-  }
- ]
+  "actualizado": "2026-10-27T08:49:10+00:00",
+  "eventos": [
+    {
+      "fecha": "2026-10-22T21:30:39+00:00",
+      "pieza": "existe",
+      "estado": "programado",
+      "nota": "primera pieza, montada y programada por Claude el 22-oct (Metricool: TikTok 403584985, YouTube 403585041)"
+    },
+    {
+      "fecha": "2026-10-22T22:02:38+00:00",
+      "pieza": "prueba-voz",
+      "estado": "renderizado",
+      "mp4": "fabrica/pruebas/prueba-voz-es.mp4"
+    },
+    {
+      "fecha": "2026-10-26T20:42:44+00:00",
+      "pieza": "se-lo-ha-tragado",
+      "estado": "renderizado",
+      "mp4": "lote-2026-11-09/se-lo-ha-tragado-es.mp4"
+    },
+    {
+      "fecha": "2026-10-26T20:43:34+00:00",
+      "pieza": "cuanto-deja",
+      "estado": "renderizado",
+      "mp4": "lote-2026-11-16/cuanto-deja-419.mp4"
+    },
+    {
+      "fecha": "2026-10-26T20:44:22+00:00",
+      "pieza": "otros-paises",
+      "estado": "renderizado",
+      "mp4": "lote-2026-11-23/otros-paises-es.mp4"
+    },
+    {
+      "fecha": "2026-10-27T08:49:10+00:00",
+      "pieza": null,
+      "estado": "sin cambios",
+      "nota": "Tarea del martes: ninguna pieza renderizada entre +48 h y +9 días (3-nov ya programado; 10-nov fuera de ventana). Sin fallos en Metricool. Cupo: oct 13/20, nov 4/20.",
+      "por": "Claude (tarea del martes)"
+    }
+  ]
 }
