@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-27T08:49:10+00:00",
+  "actualizado": "2026-10-29T09:55:00+01:00",
   "eventos": [
     {
       "fecha": "2026-10-22T21:30:39+00:00",
@@ -37,6 +37,13 @@
       "estado": "sin cambios",
       "nota": "Tarea del martes: ninguna pieza renderizada entre +48 h y +9 días (3-nov ya programado; 10-nov fuera de ventana). Sin fallos en Metricool. Cupo: oct 13/20, nov 4/20.",
       "por": "Claude (tarea del martes)"
+    },
+    {
+      "fecha": "2026-10-29T09:55:00+01:00",
+      "pieza": "diario-dientes",
+      "estado": "publicado",
+      "nota": "Tarea del jueves: diario-dientes publicado en YouTube y TikTok (Metricool PUBLISHED). existe (3-nov) programado y correcto en TikTok y YouTube. Pines cap05 (5-nov) y cap08 (12-nov) pendientes. Sin errores en Metricool.",
+      "por": "Claude (tarea del jueves)"
     }
   ]
 }
