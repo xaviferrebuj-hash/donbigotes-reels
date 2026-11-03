@@ -3,7 +3,7 @@
  "fecha": "2026-11-10T20:00:00+01:00",
  "variante": "es",
  "plantilla": "ilustraciones",
- "estado": "renderizado",
+ "estado": "programado",
  "formato": "consejo práctico",
  "frases": [
   "Si se ha tragado el diente, que sepas que me pasa más de lo que crees.",
@@ -57,6 +57,11 @@
    "estado": "renderizado",
    "fecha": "2026-10-26T20:42:44+00:00",
    "por": "fábrica"
+  },
+  {
+   "estado": "programado",
+   "fecha": "2026-11-03T09:48:29+01:00",
+   "por": "Claude (tarea del martes)"
   }
  ],
  "voz": {
@@ -69,5 +74,9 @@
   "mp4": "lote-2026-11-09/se-lo-ha-tragado-es.mp4",
   "sha256": "ed08210c0b71f5ecdd68e539b008ab73feacf7be871752168eca4e7808cbca5a",
   "bytes": 4542335
+ },
+ "metricool": {
+  "tiktok": 414979993,
+  "youtube": 414980013
  }
 }

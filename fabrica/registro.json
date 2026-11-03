@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-29T09:55:00+01:00",
+  "actualizado": "2026-11-03T09:48:29+01:00",
   "eventos": [
     {
       "fecha": "2026-10-22T21:30:39+00:00",
@@ -44,6 +44,13 @@
       "estado": "publicado",
       "nota": "Tarea del jueves: diario-dientes publicado en YouTube y TikTok (Metricool PUBLISHED). existe (3-nov) programado y correcto en TikTok y YouTube. Pines cap05 (5-nov) y cap08 (12-nov) pendientes. Sin errores en Metricool.",
       "por": "Claude (tarea del jueves)"
+    },
+    {
+      "fecha": "2026-11-03T09:48:29+01:00",
+      "pieza": "se-lo-ha-tragado",
+      "estado": "programado",
+      "nota": "Tarea del martes: se-lo-ha-tragado programado para el 10-nov 20:00 en TikTok (414979993) y YouTube Short (414980013); MP4 verificado (200, bytes y sha256 OK, 4,3 MB). Sin fallos en Metricool últimos 7 días. Cupo nov: 6/20.",
+      "por": "Claude (tarea del martes)"
     }
   ]
 }
