@@ -3,7 +3,7 @@
  "fecha": "2026-11-03T20:00:00+01:00",
  "variante": "419",
  "plantilla": "ilustraciones",
- "estado": "programado",
+ "estado": "publicado",
  "frases": [
   "Algún día te preguntará si existo.",
   "Soy Don Bigotes, y llevo toda la vida pasando por las casas de noche.",
@@ -70,6 +70,12 @@
    "estado": "programado",
    "fecha": "2026-10-22T23:18:00+02:00",
    "por": "Claude (conector de Metricool)"
+  },
+  {
+   "estado": "publicado",
+   "fecha": "2026-11-03T20:00:00+01:00",
+   "por": "Claude (tarea del jueves)",
+   "nota": "Metricool PUBLISHED: TikTok 7704022480230354199, YouTube 2NzUBhQi_4E"
   }
  ]
 }
