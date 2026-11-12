@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-10T09:48:34+01:00",
+  "actualizado": "2026-11-12T09:52:37+01:00",
   "eventos": [
     {
       "fecha": "2026-10-22T21:30:39+00:00",
@@ -65,6 +65,13 @@
       "estado": "programado",
       "nota": "Tarea del martes: cuanto-deja programado para el 17-nov 20:00 en TikTok (422868310) y YouTube Short (422868326); MP4 verificado (200, bytes y sha256 OK, 4,3 MB). Sin fallos en Metricool últimos 7 días. Cupo nov: 11/20 (incluye un Reel de Instagram del 8-nov).",
       "por": "Claude (tarea del martes)"
+    },
+    {
+      "fecha": "2026-11-12T09:52:37+01:00",
+      "pieza": "se-lo-ha-tragado",
+      "estado": "publicado",
+      "nota": "Tarea del jueves: se-lo-ha-tragado publicado el 10-nov en TikTok y YouTube Short (Metricool: PUBLISHED). cuanto-deja (17-nov 20:00) comprobado: TikTok title=text, isAigc y commercialContentOwnBrand OK; YouTube short, isAiGeneratedContent true, madeForKids false = textos.youtube_para_ninos. Sin errores en Metricool (-8/+21 días). Siguiente: otros-paises (24-nov) renderizado, pendiente de la tarea del martes 17-nov.",
+      "por": "Claude (tarea del jueves)"
     }
   ]
 }
