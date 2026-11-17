@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-12T09:52:37+01:00",
+  "actualizado": "2026-11-17T09:48:20+01:00",
   "eventos": [
     {
       "fecha": "2026-10-22T21:30:39+00:00",
@@ -72,6 +72,13 @@
       "estado": "publicado",
       "nota": "Tarea del jueves: se-lo-ha-tragado publicado el 10-nov en TikTok y YouTube Short (Metricool: PUBLISHED). cuanto-deja (17-nov 20:00) comprobado: TikTok title=text, isAigc y commercialContentOwnBrand OK; YouTube short, isAiGeneratedContent true, madeForKids false = textos.youtube_para_ninos. Sin errores en Metricool (-8/+21 días). Siguiente: otros-paises (24-nov) renderizado, pendiente de la tarea del martes 17-nov.",
       "por": "Claude (tarea del jueves)"
+    },
+    {
+      "fecha": "2026-11-17T09:48:20+01:00",
+      "pieza": "otros-paises",
+      "estado": "programado",
+      "nota": "Tarea del martes: programado para el 24-nov 20:00 (Metricool: TikTok 431149311, YouTube 431149323). MP4 verificado (200, 4477461 bytes, sha256 ok). Sin fallos en Metricool en 7 días. Cupo nov: 13/20.",
+      "por": "Claude (tarea del martes)"
     }
   ]
 }

@@ -3,7 +3,7 @@
  "fecha": "2026-11-24T20:00:00+01:00",
  "variante": "es",
  "plantilla": "ilustraciones",
- "estado": "renderizado",
+ "estado": "programado",
  "formato": "tradiciones en otros países",
  "frases": [
   "No en todas partes me encargo yo de los dientes.",
@@ -57,6 +57,11 @@
    "estado": "renderizado",
    "fecha": "2026-10-26T20:44:22+00:00",
    "por": "fábrica"
+  },
+  {
+   "estado": "programado",
+   "fecha": "2026-11-17T09:48:20+01:00",
+   "por": "Claude (tarea del martes)"
   }
  ],
  "voz": {
@@ -69,5 +74,9 @@
   "mp4": "lote-2026-11-23/otros-paises-es.mp4",
   "sha256": "bb3c6ae34eab7170fe6fdb6cd3556f8c76df2d926e5074c084bb78e3495c0923",
   "bytes": 4477461
+ },
+ "metricool": {
+  "tiktok": 431149311,
+  "youtube": 431149323
  }
 }
