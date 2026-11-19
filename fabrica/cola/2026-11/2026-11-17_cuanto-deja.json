@@ -3,7 +3,7 @@
  "fecha": "2026-11-17T20:00:00+01:00",
  "variante": "419",
  "plantilla": "ilustraciones",
- "estado": "programado",
+ "estado": "publicado",
  "formato": "pregunta-curiosidad",
  "frases": [
   "Muchos papás me preguntan cuánto dejo por cada diente.",
@@ -62,6 +62,11 @@
    "estado": "programado",
    "fecha": "2026-11-10T09:48:34+01:00",
    "por": "Claude (tarea del martes)"
+  },
+  {
+   "estado": "publicado",
+   "fecha": "2026-11-19T09:56:00+01:00",
+   "por": "Claude (tarea del jueves)"
   }
  ],
  "voz": {
@@ -78,5 +83,9 @@
  "metricool": {
   "tiktok": 422868310,
   "youtube": 422868326
+ },
+ "publicado": {
+  "tiktok": "https://www.tiktok.com/@donbigotes.app/video/7709218022304582934",
+  "youtube": "https://www.youtube.com/shorts/IfZxYgZ3CVA"
  }
 }
