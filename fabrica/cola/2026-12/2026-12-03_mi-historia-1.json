@@ -1,0 +1,63 @@
+{
+ "slug": "mi-historia-1",
+ "fecha": "2026-12-03T20:00:00+01:00",
+ "variante": "419",
+ "plantilla": "ilustraciones",
+ "estado": "aprobado",
+ "formato": "Mi historia",
+ "serie": "Mi historia",
+ "tecnica": "base + enlace en pantalla (semana de control)",
+ "frases": [
+  "Nací en una caja de galletas, en la trastienda de una confitería de Madrid.",
+  "Un día vi a una niña con un lazo que se reía con un hueco en la sonrisa.",
+  "Esa noche fui a buscar su diente, y le dejé mi primera moneda.",
+  "Así empezó todo. El primer capítulo de mi historia se escucha gratis en la app.",
+  "Busca Don Bigotes en tu tienda de apps…"
+ ],
+ "gancho": "Mi historia · Parte 1\nLa caja de galletas",
+ "categoria": "La app del Ratón Pérez",
+ "enlace": "donbigotes.app",
+ "planos": [
+  {
+   "archivo": "cap01-5.webp",
+   "cx": 0.45,
+   "deriva": 0.03
+  },
+  {
+   "archivo": "cap01-1.webp",
+   "cx": 0.5,
+   "deriva": 0.04
+  },
+  {
+   "archivo": "cap01-3.webp",
+   "cx": 0.45,
+   "deriva": 0.03
+  },
+  {
+   "archivo": "cap01-4.webp",
+   "cx": 0.48,
+   "deriva": 0.03
+  }
+ ],
+ "textos": {
+  "tiktok": "Mi historia · Parte 1. El Ratón Pérez nació en una caja de galletas, en una confitería de Madrid. Un día vio a una niña con un hueco en la sonrisa, y esa noche dejó su primera moneda. Síguenos para la parte 2. El capítulo 1 se escucha gratis en la app Don Bigotes. donbigotes.app\n\n#ratonperez #cuentoinfantil #cuentosparadormir #donbigotes",
+  "instagram": "Mi historia · Parte 1. El Ratón Pérez nació en una caja de galletas, en una confitería de Madrid. Un día vio a una niña con un hueco en la sonrisa, y esa noche dejó su primera moneda. Síguenos para la parte 2. El capítulo 1 se escucha gratis en la app Don Bigotes. donbigotes.app\n\n#ratonperez #cuentoinfantil #cuentosparadormir #donbigotes",
+  "youtube_titulo": "Cómo nació el Ratón Pérez · Mi historia, parte 1",
+  "youtube_descripcion": "Mi historia · Parte 1. El Ratón Pérez nació en una caja de galletas, en una confitería de Madrid. Un día vio a una niña con un hueco en la sonrisa, y esa noche dejó su primera moneda. Síguenos para la parte 2. El capítulo 1 se escucha gratis en la app Don Bigotes.\n\nLa historia de Don Bigotes, el cuento del Ratón Pérez en 10 capítulos: https://donbigotes.app/es-419/cuento-raton-perez/?utm_source=youtube&utm_medium=social&utm_campaign=mi-historia-1&utm_content=419\n\n#ratonperez #cuentoinfantil #cuentosparadormir #donbigotes",
+  "youtube_para_ninos": false
+ },
+ "revision_xavi": "pendiente",
+ "historial": [
+  {
+   "estado": "preparado",
+   "fecha": "2026-11-20T14:30:00+01:00",
+   "por": "Claude (chat del 20-nov)"
+  },
+  {
+   "estado": "aprobado",
+   "fecha": "2026-11-20T14:30:00+01:00",
+   "por": "Xavi",
+   "nota": "OK a los guiones; quiere ver el vídeo antes de programar"
+  }
+ ]
+}

@@ -42,6 +42,7 @@ F_GANCHO = fuente(REC / 'fuentes/Baloo2.ttf', 92, 800)
 F_SUB = fuente(REC / 'fuentes/Nunito.ttf', 62, 900)
 F_MARCA = fuente(REC / 'fuentes/Baloo2.ttf', 54, 700)
 F_TITULO = fuente(REC / 'fuentes/Baloo2.ttf', 132, 800)
+F_ENLACE = fuente(REC / 'fuentes/Baloo2.ttf', 78, 800)
 
 
 def duracion(ruta):
@@ -205,12 +206,35 @@ class Montaje:
                    stroke_width=7, stroke_fill=BORDE)
             x += an + esp
 
+    def gancho_ajustado(self, d, ancho=W - 90):
+        if not hasattr(self, '_gancho'):
+            g = self.p['gancho']
+            if '\n' in g:
+                lineas = [x.strip() for x in g.split('\n')][:2]
+            elif d.textlength(g, font=F_GANCHO) <= ancho:
+                lineas = [g]
+            else:
+                pal, mejor = g.split(), None
+                for k in range(1, len(pal)):
+                    a, b = ' '.join(pal[:k]), ' '.join(pal[k:])
+                    m = max(d.textlength(a, font=F_GANCHO), d.textlength(b, font=F_GANCHO))
+                    if mejor is None or m < mejor[0]:
+                        mejor = (m, [a, b])
+                lineas = mejor[1] if mejor else [g]
+            tam, f = 92, F_GANCHO
+            while tam > 56 and max(d.textlength(x, font=f) for x in lineas) > ancho:
+                tam -= 4
+                f = fuente(REC / 'fuentes/Baloo2.ttf', tam, 800)
+            self._gancho = (lineas, f)
+        return self._gancho
+
     def dibujar_sub(self, frame, t):
         d = ImageDraw.Draw(frame)
         if t >= self.planos[self.i_cierre][3]:
             a, b = self.lineas_cierre
-            self.linea_karaoke(d, a, 380, t)
-            self.linea_karaoke(d, b, 462, t)
+            y = 32 if self.p.get('enlace') else 0  # con enlace, el cierre baja para dejarle sitio
+            self.linea_karaoke(d, a, 380 + y, t)
+            self.linea_karaoke(d, b, 462 + y, t)
             return
         for tr, a, b in self.trozos:
             if a <= t < b:
@@ -222,13 +246,27 @@ class Montaje:
         cierre = t >= self.planos[self.i_cierre][3]
         if t < self.corte(0) + 0.6 and not cierre:
             a = min(1, t / 0.25)
-            self.texto_borde(d, (W // 2, 300), self.p['gancho'], F_GANCHO,
-                             CREMA if a >= 1 else tuple(int(c * a) for c in CREMA), borde=8)
+            color = CREMA if a >= 1 else tuple(int(c * a) for c in CREMA)
+            if self.p.get('enlace'):
+                # piezas nuevas: el gancho se ajusta al ancho (hasta 2 líneas; "\n" fuerza el corte)
+                lineas, f = self.gancho_ajustado(d)
+                ys = [300] if len(lineas) == 1 else [238, 334]
+                for linea, y in zip(lineas, ys):
+                    self.texto_borde(d, (W // 2, y), linea, f, color, borde=8)
+            else:
+                self.texto_borde(d, (W // 2, 300), self.p['gancho'], F_GANCHO, color, borde=8)
+        # "enlace" (opcional, p. ej. "donbigotes.app"): la dirección de la web siempre en pantalla.
+        # Sin ese campo el vídeo sale idéntico al de antes (lo comprueba --prueba).
+        enlace = self.p.get('enlace')
         if cierre:
-            self.texto_borde(d, (W // 2, 240), 'Don Bigotes', F_TITULO, CREMA, borde=9)
+            if enlace:
+                self.texto_borde(d, (W // 2, 212), 'Don Bigotes', F_TITULO, CREMA, borde=9)
+                self.texto_borde(d, (W // 2, 322), enlace, F_ENLACE, AMARILLO, borde=8)
+            else:
+                self.texto_borde(d, (W // 2, 240), 'Don Bigotes', F_TITULO, CREMA, borde=9)
             self.texto_borde(d, (W // 2, 1460), self.p['categoria'], F_MARCA, CREMA, borde=6)
         else:
-            self.texto_borde(d, (W // 2, FG_Y + FG_H + 70), 'Don Bigotes', F_MARCA, CREMA, borde=6)
+            self.texto_borde(d, (W // 2, FG_Y + FG_H + 70), enlace or 'Don Bigotes', F_MARCA, CREMA, borde=6)
         self.dibujar_sub(frame, t)
 
     def frame_en(self, t):

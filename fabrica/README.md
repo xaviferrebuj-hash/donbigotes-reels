@@ -33,6 +33,15 @@ Este repositorio es **público**: aquí solo entra material publicable. Nada de 
 - `planos`: uno por frase salvo la última, que es el cierre con Don Bigotes saludando. `cx` es el centro horizontal del encuadre (0-1); `deriva`, cuánto se desplaza durante el plano.
 - `voz`: la escribe la fábrica (audio + palabras con tiempos). Si una pieza ya la trae, no se genera otra.
 - `revisar`: la fábrica lo añade si whisper no oye exactamente el guion o si se acabó el tope de créditos.
+- `enlace` (opcional, p. ej. `"donbigotes.app"`): la dirección de la web va siempre en pantalla (bajo la ilustración y, en amarillo, en el cierre) y el gancho se ajusta al ancho en una o dos líneas (`\n` fuerza el corte). Sin `enlace`, el vídeo sale idéntico al de antes (lo comprueba `--prueba`).
+- `textos.instagram`: texto del Reel. `serie` y `tecnica`: a qué serie pertenece la pieza y qué técnica visual prueba esa semana.
+- `revision_xavi`: `pendiente` hasta que Xavi ve el vídeo y da el OK; solo entonces se programa.
+
+## Régimen desde el 20-nov-2026 (decisión de Xavi)
+
+- 5 vídeos por semana (lunes a viernes, 20:00), en TikTok, Short de YouTube y Reel de Instagram. Metricool es de pago (Starter 5): no hay cupo mensual.
+- Xavi ve cada vídeo **antes** de programarlo. «Renderizado» no se programa: hace falta su OK al vídeo. La tarea de los martes que programaba sola está desactivada.
+- Todas las piezas nuevas llevan `enlace`. Cada semana se prueba una técnica visual distinta y se compara con la anterior.
 
 ## Reglas que aplica
 

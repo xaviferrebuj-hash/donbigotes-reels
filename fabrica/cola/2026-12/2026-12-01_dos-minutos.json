@@ -1,0 +1,63 @@
+{
+ "slug": "dos-minutos",
+ "fecha": "2026-12-01T20:00:00+01:00",
+ "variante": "es",
+ "plantilla": "ilustraciones",
+ "estado": "aprobado",
+ "formato": "Misión Sonrisa",
+ "serie": "Misión Sonrisa",
+ "tecnica": "base + enlace en pantalla (semana de control)",
+ "frases": [
+  "Dos minutos de cepillo se hacen eternos cuando tienes seis años.",
+  "Por eso yo los cuento con una canción: arriba, abajo, por fuera y por dentro.",
+  "Cuando se acaba la canción, se acaba el cepillado.",
+  "Y cada vez que termina, pongo un sello en su diario.",
+  "Busca Don Bigotes en tu tienda de apps…"
+ ],
+ "gancho": "¿Cuánto son dos minutos?",
+ "categoria": "La app del Ratoncito Pérez",
+ "enlace": "donbigotes.app",
+ "planos": [
+  {
+   "archivo": "cap02-6.webp",
+   "cx": 0.52,
+   "deriva": 0.03
+  },
+  {
+   "archivo": "cap09-5.webp",
+   "cx": 0.5,
+   "deriva": 0.04
+  },
+  {
+   "archivo": "cap10-5.webp",
+   "cx": 0.45,
+   "deriva": 0.03
+  },
+  {
+   "archivo": "cap03-3.webp",
+   "cx": 0.55,
+   "deriva": 0.03
+  }
+ ],
+ "textos": {
+  "tiktok": "¿Cuánto son dos minutos de cepillo? Con seis años, una eternidad. Don Bigotes los cuenta con una canción: arriba, abajo, por fuera y por dentro. Cuando se acaba la canción, se acaba el cepillado. Gratis en la app Don Bigotes. donbigotes.app\n\n#cepillado #dientedeleche #ratoncitoperez #donbigotes",
+  "instagram": "¿Cuánto son dos minutos de cepillo? Con seis años, una eternidad. Don Bigotes los cuenta con una canción: arriba, abajo, por fuera y por dentro. Cuando se acaba la canción, se acaba el cepillado. Gratis en la app Don Bigotes. donbigotes.app\n\n#cepillado #dientedeleche #ratoncitoperez #donbigotes",
+  "youtube_titulo": "Cepillarse los dientes dos minutos: el truco del Ratoncito Pérez",
+  "youtube_descripcion": "¿Cuánto son dos minutos de cepillo? Con seis años, una eternidad. Don Bigotes los cuenta con una canción: arriba, abajo, por fuera y por dentro. Cuando se acaba la canción, se acaba el cepillado. Gratis en la app Don Bigotes.\n\nEl diario de dientes de leche, gratis: https://donbigotes.app/diario-dientes-de-leche/?utm_source=youtube&utm_medium=social&utm_campaign=dos-minutos&utm_content=es\n\n#cepillado #dientedeleche #ratoncitoperez #donbigotes",
+  "youtube_para_ninos": false
+ },
+ "revision_xavi": "pendiente",
+ "historial": [
+  {
+   "estado": "preparado",
+   "fecha": "2026-11-20T14:30:00+01:00",
+   "por": "Claude (chat del 20-nov)"
+  },
+  {
+   "estado": "aprobado",
+   "fecha": "2026-11-20T14:30:00+01:00",
+   "por": "Xavi",
+   "nota": "OK a los guiones; quiere ver el vídeo antes de programar"
+  }
+ ]
+}

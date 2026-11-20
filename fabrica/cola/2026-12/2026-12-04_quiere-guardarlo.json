@@ -1,0 +1,63 @@
+{
+ "slug": "quiere-guardarlo",
+ "fecha": "2026-12-04T20:00:00+01:00",
+ "variante": "es",
+ "plantilla": "ilustraciones",
+ "estado": "aprobado",
+ "formato": "Bigotes responde",
+ "serie": "Bigotes responde",
+ "tecnica": "base + enlace en pantalla (semana de control)",
+ "frases": [
+  "Hay peques que no quieren darme su diente, y lo entiendo: es suyo.",
+  "Que me dejen una nota debajo de la almohada pidiéndome que no me lo lleve.",
+  "Lo miro, lo apunto en mi libro y lo dejo donde estaba.",
+  "La carta con su nombre la dejo igual.",
+  "Busca Don Bigotes en tu tienda de apps…"
+ ],
+ "gancho": "¿Quiere quedarse el diente?",
+ "categoria": "La app del Ratoncito Pérez",
+ "enlace": "donbigotes.app",
+ "planos": [
+  {
+   "archivo": "cap10-2.webp",
+   "cx": 0.42,
+   "deriva": 0.03
+  },
+  {
+   "archivo": "cap08-1.webp",
+   "cx": 0.42,
+   "deriva": 0.04
+  },
+  {
+   "archivo": "cap03-4.webp",
+   "cx": 0.42,
+   "deriva": 0.03
+  },
+  {
+   "archivo": "cap08-2.webp",
+   "cx": 0.55,
+   "deriva": 0.03
+  }
+ ],
+ "textos": {
+  "tiktok": "¿Tu peque quiere quedarse el diente? El Ratoncito Pérez lo entiende: es suyo. Basta una nota debajo de la almohada pidiéndole que no se lo lleve. Lo mira, lo apunta en su libro y lo deja donde estaba. La carta la deja igual. Busca Don Bigotes en tu tienda de apps. donbigotes.app\n\n#ratoncitoperez #dientedeleche #crianza #donbigotes",
+  "instagram": "¿Tu peque quiere quedarse el diente? El Ratoncito Pérez lo entiende: es suyo. Basta una nota debajo de la almohada pidiéndole que no se lo lleve. Lo mira, lo apunta en su libro y lo deja donde estaba. La carta la deja igual. Busca Don Bigotes en tu tienda de apps. donbigotes.app\n\n#ratoncitoperez #dientedeleche #crianza #donbigotes",
+  "youtube_titulo": "Mi hijo no quiere darle el diente al Ratoncito Pérez: qué hacer",
+  "youtube_descripcion": "¿Tu peque quiere quedarse el diente? El Ratoncito Pérez lo entiende: es suyo. Basta una nota debajo de la almohada pidiéndole que no se lo lleve. Lo mira, lo apunta en su libro y lo deja donde estaba. La carta la deja igual. Busca Don Bigotes en tu tienda de apps.\n\nLa carta del Ratoncito Pérez con su nombre, para imprimir: https://donbigotes.app/carta-para-imprimir/?utm_source=youtube&utm_medium=social&utm_campaign=quiere-guardarlo&utm_content=es\n\n#ratoncitoperez #dientedeleche #crianza #donbigotes",
+  "youtube_para_ninos": false
+ },
+ "revision_xavi": "pendiente",
+ "historial": [
+  {
+   "estado": "preparado",
+   "fecha": "2026-11-20T14:30:00+01:00",
+   "por": "Claude (chat del 20-nov)"
+  },
+  {
+   "estado": "aprobado",
+   "fecha": "2026-11-20T14:30:00+01:00",
+   "por": "Xavi",
+   "nota": "OK a los guiones; quiere ver el vídeo antes de programar"
+  }
+ ]
+}

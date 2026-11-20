@@ -1,0 +1,63 @@
+{
+ "slug": "veinte-dientes",
+ "fecha": "2026-12-02T20:00:00+01:00",
+ "variante": "419",
+ "plantilla": "ilustraciones",
+ "estado": "aprobado",
+ "formato": "Bigotes responde",
+ "serie": "Bigotes responde",
+ "tecnica": "base + enlace en pantalla (semana de control)",
+ "frases": [
+  "Cada peque tiene veinte dientes de leche.",
+  "El primero suele caerse hacia los seis años, y el último, cerca de los doce.",
+  "Son veinte noches en las que paso por su casa.",
+  "Yo las apunto todas en mi libro, y ustedes pueden apuntarlas en su diario de dientes.",
+  "Busca Don Bigotes en tu tienda de apps…"
+ ],
+ "gancho": "Veinte dientes, veinte visitas",
+ "categoria": "La app del Ratón Pérez",
+ "enlace": "donbigotes.app",
+ "planos": [
+  {
+   "archivo": "cap07-2.webp",
+   "cx": 0.5,
+   "deriva": 0.03
+  },
+  {
+   "archivo": "cap01-2.webp",
+   "cx": 0.6,
+   "deriva": 0.03
+  },
+  {
+   "archivo": "cap10-1.webp",
+   "cx": 0.37,
+   "deriva": 0.04
+  },
+  {
+   "archivo": "cap08-6.webp",
+   "cx": 0.5,
+   "deriva": 0.03
+  }
+ ],
+ "textos": {
+  "tiktok": "¿Cuántas veces pasa el Ratón Pérez por tu casa? Veinte: una por cada diente de leche. El primero suele caerse hacia los seis años y el último, cerca de los doce. Él las apunta todas en su libro; ustedes, en el diario de dientes. Busca Don Bigotes en tu tienda de apps. donbigotes.app\n\n#ratonperez #dientedeleche #primerdiente #donbigotes",
+  "instagram": "¿Cuántas veces pasa el Ratón Pérez por tu casa? Veinte: una por cada diente de leche. El primero suele caerse hacia los seis años y el último, cerca de los doce. Él las apunta todas en su libro; ustedes, en el diario de dientes. Busca Don Bigotes en tu tienda de apps. donbigotes.app\n\n#ratonperez #dientedeleche #primerdiente #donbigotes",
+  "youtube_titulo": "¿Cuántos dientes de leche se caen? Las 20 visitas del Ratón Pérez",
+  "youtube_descripcion": "¿Cuántas veces pasa el Ratón Pérez por tu casa? Veinte: una por cada diente de leche. El primero suele caerse hacia los seis años y el último, cerca de los doce. Él las apunta todas en su libro; ustedes, en el diario de dientes. Busca Don Bigotes en tu tienda de apps.\n\nEl diario de dientes de leche, gratis: https://donbigotes.app/es-419/diario-dientes-de-leche/?utm_source=youtube&utm_medium=social&utm_campaign=veinte-dientes&utm_content=419\n\n#ratonperez #dientedeleche #primerdiente #donbigotes",
+  "youtube_para_ninos": false
+ },
+ "revision_xavi": "pendiente",
+ "historial": [
+  {
+   "estado": "preparado",
+   "fecha": "2026-11-20T14:30:00+01:00",
+   "por": "Claude (chat del 20-nov)"
+  },
+  {
+   "estado": "aprobado",
+   "fecha": "2026-11-20T14:30:00+01:00",
+   "por": "Xavi",
+   "nota": "OK a los guiones; quiere ver el vídeo antes de programar"
+  }
+ ]
+}

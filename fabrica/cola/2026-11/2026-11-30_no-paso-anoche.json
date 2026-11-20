@@ -1,0 +1,63 @@
+{
+ "slug": "no-paso-anoche",
+ "fecha": "2026-11-30T20:00:00+01:00",
+ "variante": "419",
+ "plantilla": "ilustraciones",
+ "estado": "aprobado",
+ "formato": "Bigotes responde",
+ "serie": "Bigotes responde",
+ "tecnica": "base + enlace en pantalla (semana de control)",
+ "frases": [
+  "Si esta mañana el diente seguía bajo la almohada, la culpa es mía.",
+  "Hay noches con tantos dientes que no llego a todas las casas.",
+  "Díganle que lo deje una noche más, que el Ratón Pérez no se olvida de ninguno.",
+  "Esta noche paso seguro, y le dejo una carta con su nombre.",
+  "Busca Don Bigotes en tu tienda de apps…"
+ ],
+ "gancho": "¿Anoche no pasó el Ratón?",
+ "categoria": "La app del Ratón Pérez",
+ "enlace": "donbigotes.app",
+ "planos": [
+  {
+   "archivo": "cap04-1.webp",
+   "cx": 0.37,
+   "deriva": 0.03
+  },
+  {
+   "archivo": "cap03-2.webp",
+   "cx": 0.42,
+   "deriva": 0.04
+  },
+  {
+   "archivo": "cap10-3.webp",
+   "cx": 0.4,
+   "deriva": 0.03
+  },
+  {
+   "archivo": "cap01-6.webp",
+   "cx": 0.48,
+   "deriva": 0.03
+  }
+ ],
+ "textos": {
+  "tiktok": "¿Anoche no pasó el Ratón Pérez? Tranquilos: hay noches con tantos dientes que no llega a todas las casas. Que deje el diente una noche más. Esta noche pasa seguro, y con una carta con su nombre. Busca Don Bigotes en tu tienda de apps. donbigotes.app\n\n#ratonperez #dientedeleche #crianza #donbigotes",
+  "instagram": "¿Anoche no pasó el Ratón Pérez? Tranquilos: hay noches con tantos dientes que no llega a todas las casas. Que deje el diente una noche más. Esta noche pasa seguro, y con una carta con su nombre. Busca Don Bigotes en tu tienda de apps. donbigotes.app\n\n#ratonperez #dientedeleche #crianza #donbigotes",
+  "youtube_titulo": "El Ratón Pérez no pasó anoche: qué decirle",
+  "youtube_descripcion": "¿Anoche no pasó el Ratón Pérez? Tranquilos: hay noches con tantos dientes que no llega a todas las casas. Que deje el diente una noche más. Esta noche pasa seguro, y con una carta con su nombre. Busca Don Bigotes en tu tienda de apps.\n\nLa carta del Ratón Pérez con su nombre, para imprimir: https://donbigotes.app/es-419/carta-para-imprimir/?utm_source=youtube&utm_medium=social&utm_campaign=no-paso-anoche&utm_content=419\n\n#ratonperez #dientedeleche #crianza #donbigotes",
+  "youtube_para_ninos": false
+ },
+ "revision_xavi": "pendiente",
+ "historial": [
+  {
+   "estado": "preparado",
+   "fecha": "2026-11-20T14:30:00+01:00",
+   "por": "Claude (chat del 20-nov)"
+  },
+  {
+   "estado": "aprobado",
+   "fecha": "2026-11-20T14:30:00+01:00",
+   "por": "Xavi",
+   "nota": "OK a los guiones; quiere ver el vídeo antes de programar"
+  }
+ ]
+}
