@@ -19,23 +19,23 @@
  "enlace": "donbigotes.app",
  "planos": [
   {
-   "archivo": "cap07-2.webp",
+   "archivo": "banco-mercado-diente.webp",
    "cx": 0.5,
    "deriva": 0.03
   },
   {
-   "archivo": "cap01-2.webp",
-   "cx": 0.6,
+   "archivo": "banco-hucha-casita.webp",
+   "cx": 0.53,
    "deriva": 0.03
   },
   {
-   "archivo": "cap10-1.webp",
-   "cx": 0.37,
-   "deriva": 0.04
+   "archivo": "banco-tejados-farol.webp",
+   "cx": 0.49,
+   "deriva": 0.03
   },
   {
-   "archivo": "cap08-6.webp",
-   "cx": 0.5,
+   "archivo": "banco-biblioteca-sobre.webp",
+   "cx": 0.55,
    "deriva": 0.03
   }
  ],
@@ -63,6 +63,12 @@
    "estado": "renderizado",
    "fecha": "2026-11-20T13:58:03+00:00",
    "por": "fábrica"
+  },
+  {
+   "estado": "renderizado",
+   "fecha": "2026-11-20T23:20:32+00:00",
+   "por": "Claude (chat 21-nov)",
+   "nota": "v2 con ilustraciones nuevas del banco (ChatGPT y fal). Misma voz, 0 créditos."
   }
  ],
  "voz": {
@@ -72,6 +78,33 @@
   "creditos": 128
  },
  "salida": {
+  "mp4": "lote-2026-11-30/veinte-dientes-419-v2.mp4",
+  "sha256": "6a16e038e8b07f7cb06189d9b38f5c08bb7d867cca62d87a59b0192cfe0fae85",
+  "bytes": 8863044
+ },
+ "planos_v1": [
+  {
+   "archivo": "cap07-2.webp",
+   "cx": 0.5,
+   "deriva": 0.03
+  },
+  {
+   "archivo": "cap01-2.webp",
+   "cx": 0.6,
+   "deriva": 0.03
+  },
+  {
+   "archivo": "cap10-1.webp",
+   "cx": 0.37,
+   "deriva": 0.04
+  },
+  {
+   "archivo": "cap08-6.webp",
+   "cx": 0.5,
+   "deriva": 0.03
+  }
+ ],
+ "salida_v1": {
   "mp4": "lote-2026-11-30/veinte-dientes-419.mp4",
   "sha256": "34f07c5a9f67adfafa1ed2d278b844ea219db65a255405fb89dc0ff3797f05c5",
   "bytes": 4672385

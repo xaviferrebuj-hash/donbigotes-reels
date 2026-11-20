@@ -19,23 +19,23 @@
  "enlace": "donbigotes.app",
  "planos": [
   {
-   "archivo": "cap10-2.webp",
-   "cx": 0.42,
+   "archivo": "banco-joyero-b.webp",
+   "cx": 0.51,
    "deriva": 0.03
   },
   {
-   "archivo": "cap08-1.webp",
-   "cx": 0.42,
-   "deriva": 0.04
-  },
-  {
-   "archivo": "cap03-4.webp",
-   "cx": 0.42,
+   "archivo": "banco-costura-diente.webp",
+   "cx": 0.52,
    "deriva": 0.03
   },
   {
-   "archivo": "cap08-2.webp",
-   "cx": 0.55,
+   "archivo": "banco-joyero-a.webp",
+   "cx": 0.47,
+   "deriva": 0.03
+  },
+  {
+   "archivo": "banco-floristeria-carta.webp",
+   "cx": 0.5,
    "deriva": 0.03
   }
  ],
@@ -63,6 +63,12 @@
    "estado": "renderizado",
    "fecha": "2026-11-20T13:59:16+00:00",
    "por": "fábrica"
+  },
+  {
+   "estado": "renderizado",
+   "fecha": "2026-11-20T23:20:32+00:00",
+   "por": "Claude (chat 21-nov)",
+   "nota": "v2 con ilustraciones nuevas del banco (ChatGPT y fal). Misma voz, 0 créditos."
   }
  ],
  "voz": {
@@ -72,6 +78,33 @@
   "creditos": 121
  },
  "salida": {
+  "mp4": "lote-2026-11-30/quiere-guardarlo-es-v2.mp4",
+  "sha256": "9d39d3457b9351fd536f68aa144d35ce1418ee918d67a7c13e27266b9d279e99",
+  "bytes": 6749760
+ },
+ "planos_v1": [
+  {
+   "archivo": "cap10-2.webp",
+   "cx": 0.42,
+   "deriva": 0.03
+  },
+  {
+   "archivo": "cap08-1.webp",
+   "cx": 0.42,
+   "deriva": 0.04
+  },
+  {
+   "archivo": "cap03-4.webp",
+   "cx": 0.42,
+   "deriva": 0.03
+  },
+  {
+   "archivo": "cap08-2.webp",
+   "cx": 0.55,
+   "deriva": 0.03
+  }
+ ],
+ "salida_v1": {
   "mp4": "lote-2026-11-30/quiere-guardarlo-es.mp4",
   "sha256": "e174bae326bba449509eb6d10182daecc003685d711fe39ccfc4551e0e05b8c8",
   "bytes": 4427677
