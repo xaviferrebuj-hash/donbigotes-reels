@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T21:00:03+00:00",
+ "actualizado": "2026-11-20T23:27:30+00:00",
  "eventos": [
   {
    "fecha": "2026-10-22T21:30:39+00:00",
@@ -123,6 +123,41 @@
    "estado": "programado",
    "nota": "v2 (título entero + donbigotes.app) sustituye al vídeo en Metricool: TikTok 436081347, YouTube 436081387. Semana del 30-nov renderizada, a la espera del OK de Xavi.",
    "por": "Claude (chat 20-nov)"
+  },
+  {
+   "fecha": "2026-11-20T23:27:30+00:00",
+   "pieza": "no-paso-anoche",
+   "estado": "programado",
+   "nota": "TikTok 436203211, YouTube 436203267, Instagram 436203296",
+   "por": "Claude (chat 21-nov)"
+  },
+  {
+   "fecha": "2026-11-20T23:27:30+00:00",
+   "pieza": "dos-minutos",
+   "estado": "programado",
+   "nota": "TikTok 436203377, YouTube 436203420, Instagram 436203448",
+   "por": "Claude (chat 21-nov)"
+  },
+  {
+   "fecha": "2026-11-20T23:27:30+00:00",
+   "pieza": "veinte-dientes",
+   "estado": "programado",
+   "nota": "TikTok 436203509, YouTube 436203568, Instagram 436203609",
+   "por": "Claude (chat 21-nov)"
+  },
+  {
+   "fecha": "2026-11-20T23:27:30+00:00",
+   "pieza": "mi-historia-1",
+   "estado": "programado",
+   "nota": "TikTok 436203652, YouTube 436203687, Instagram 436203730",
+   "por": "Claude (chat 21-nov)"
+  },
+  {
+   "fecha": "2026-11-20T23:27:30+00:00",
+   "pieza": "quiere-guardarlo",
+   "estado": "programado",
+   "nota": "TikTok 436203771, YouTube 436203817, Instagram 436203853",
+   "por": "Claude (chat 21-nov)"
   }
  ]
 }

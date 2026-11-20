@@ -3,7 +3,7 @@
  "fecha": "2026-12-03T20:00:00+01:00",
  "variante": "419",
  "plantilla": "ilustraciones",
- "estado": "renderizado",
+ "estado": "programado",
  "formato": "Mi historia",
  "serie": "Mi historia",
  "tecnica": "base + enlace en pantalla (semana de control)",
@@ -46,7 +46,7 @@
   "youtube_descripcion": "Mi historia · Parte 1. El Ratón Pérez nació en una caja de galletas, en una confitería de Madrid. Un día vio a una niña con un hueco en la sonrisa, y esa noche dejó su primera moneda. Síguenos para la parte 2. El capítulo 1 se escucha gratis en la app Don Bigotes.\n\nLa historia de Don Bigotes, el cuento del Ratón Pérez en 10 capítulos: https://donbigotes.app/es-419/cuento-raton-perez/?utm_source=youtube&utm_medium=social&utm_campaign=mi-historia-1&utm_content=419\n\n#ratonperez #cuentoinfantil #cuentosparadormir #donbigotes",
   "youtube_para_ninos": false
  },
- "revision_xavi": "pendiente",
+ "revision_xavi": "aprobado 21-nov 00:22",
  "historial": [
   {
    "estado": "preparado",
@@ -63,6 +63,18 @@
    "estado": "renderizado",
    "fecha": "2026-11-20T13:58:43+00:00",
    "por": "fábrica"
+  },
+  {
+   "estado": "revisado",
+   "fecha": "2026-11-20T23:27:30+00:00",
+   "por": "Xavi",
+   "nota": "vio los vídeos v2: «perfecto aprobadas»"
+  },
+  {
+   "estado": "programado",
+   "fecha": "2026-11-20T23:27:30+00:00",
+   "por": "Claude (chat 21-nov)",
+   "nota": "TikTok + Short + Reel, 20:00"
   }
  ],
  "voz": {
@@ -75,5 +87,10 @@
   "mp4": "lote-2026-11-30/mi-historia-1-419.mp4",
   "sha256": "595d1c5537bc0cccf0f5a885a709a818b040b2bad85313c227cb635e007c8c9b",
   "bytes": 5325295
+ },
+ "metricool": {
+  "tiktok": 436203652,
+  "youtube": 436203687,
+  "instagram": 436203730
  }
 }
