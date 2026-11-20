@@ -3,7 +3,7 @@
  "fecha": "2026-12-02T20:00:00+01:00",
  "variante": "419",
  "plantilla": "ilustraciones",
- "estado": "aprobado",
+ "estado": "renderizado",
  "formato": "Bigotes responde",
  "serie": "Bigotes responde",
  "tecnica": "base + enlace en pantalla (semana de control)",
@@ -58,6 +58,22 @@
    "fecha": "2026-11-20T14:30:00+01:00",
    "por": "Xavi",
    "nota": "OK a los guiones; quiere ver el vídeo antes de programar"
+  },
+  {
+   "estado": "renderizado",
+   "fecha": "2026-11-20T13:58:03+00:00",
+   "por": "fábrica"
   }
- ]
+ ],
+ "voz": {
+  "audio": "fabrica/cola/2026-12/audio/veinte-dientes-419.mp3",
+  "palabras": "fabrica/cola/2026-12/audio/veinte-dientes-419.json",
+  "origen": "ElevenLabs eleven_v3 (with-timestamps)",
+  "creditos": 128
+ },
+ "salida": {
+  "mp4": "lote-2026-11-30/veinte-dientes-419.mp4",
+  "sha256": "34f07c5a9f67adfafa1ed2d278b844ea219db65a255405fb89dc0ff3797f05c5",
+  "bytes": 4672385
+ }
 }

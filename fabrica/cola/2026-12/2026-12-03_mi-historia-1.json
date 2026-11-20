@@ -3,7 +3,7 @@
  "fecha": "2026-12-03T20:00:00+01:00",
  "variante": "419",
  "plantilla": "ilustraciones",
- "estado": "aprobado",
+ "estado": "renderizado",
  "formato": "Mi historia",
  "serie": "Mi historia",
  "tecnica": "base + enlace en pantalla (semana de control)",
@@ -58,6 +58,22 @@
    "fecha": "2026-11-20T14:30:00+01:00",
    "por": "Xavi",
    "nota": "OK a los guiones; quiere ver el vídeo antes de programar"
+  },
+  {
+   "estado": "renderizado",
+   "fecha": "2026-11-20T13:58:43+00:00",
+   "por": "fábrica"
   }
- ]
+ ],
+ "voz": {
+  "audio": "fabrica/cola/2026-12/audio/mi-historia-1-419.mp3",
+  "palabras": "fabrica/cola/2026-12/audio/mi-historia-1-419.json",
+  "origen": "ElevenLabs eleven_v3 (with-timestamps)",
+  "creditos": 146
+ },
+ "salida": {
+  "mp4": "lote-2026-11-30/mi-historia-1-419.mp4",
+  "sha256": "595d1c5537bc0cccf0f5a885a709a818b040b2bad85313c227cb635e007c8c9b",
+  "bytes": 5325295
+ }
 }

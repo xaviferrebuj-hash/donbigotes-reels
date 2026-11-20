@@ -3,7 +3,7 @@
  "fecha": "2026-12-01T20:00:00+01:00",
  "variante": "es",
  "plantilla": "ilustraciones",
- "estado": "aprobado",
+ "estado": "renderizado",
  "formato": "Misión Sonrisa",
  "serie": "Misión Sonrisa",
  "tecnica": "base + enlace en pantalla (semana de control)",
@@ -58,6 +58,22 @@
    "fecha": "2026-11-20T14:30:00+01:00",
    "por": "Xavi",
    "nota": "OK a los guiones; quiere ver el vídeo antes de programar"
+  },
+  {
+   "estado": "renderizado",
+   "fecha": "2026-11-20T13:57:27+00:00",
+   "por": "fábrica"
   }
- ]
+ ],
+ "voz": {
+  "audio": "fabrica/cola/2026-12/audio/dos-minutos-es.mp3",
+  "palabras": "fabrica/cola/2026-12/audio/dos-minutos-es.json",
+  "origen": "ElevenLabs eleven_v3 (with-timestamps)",
+  "creditos": 126
+ },
+ "salida": {
+  "mp4": "lote-2026-11-30/dos-minutos-es.mp4",
+  "sha256": "5007d55bd866d649d6f504baef9a1047d3909ca8e2865265be9eeaacaa8a50d5",
+  "bytes": 4847256
+ }
 }

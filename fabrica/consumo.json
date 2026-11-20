@@ -24,5 +24,35 @@
    }
   ],
   "nota": "La locución de «existe» (248 créditos) se generó en el Mac y cuenta en su contador, no aquí."
+ },
+ "2026-11": {
+  "creditos": 656,
+  "piezas": [
+   {
+    "slug": "no-paso-anoche",
+    "creditos": 135,
+    "fecha": "2026-11-20T13:56:25+00:00"
+   },
+   {
+    "slug": "dos-minutos",
+    "creditos": 126,
+    "fecha": "2026-11-20T13:57:00+00:00"
+   },
+   {
+    "slug": "veinte-dientes",
+    "creditos": 128,
+    "fecha": "2026-11-20T13:57:34+00:00"
+   },
+   {
+    "slug": "mi-historia-1",
+    "creditos": 146,
+    "fecha": "2026-11-20T13:58:11+00:00"
+   },
+   {
+    "slug": "quiere-guardarlo",
+    "creditos": 121,
+    "fecha": "2026-11-20T13:58:49+00:00"
+   }
+  ]
  }
 }
