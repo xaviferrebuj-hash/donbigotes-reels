@@ -62,6 +62,12 @@
    "estado": "programado",
    "fecha": "2026-11-17T09:48:20+01:00",
    "por": "Claude (tarea del martes)"
+  },
+  {
+   "estado": "programado",
+   "fecha": "2026-11-20T20:58:13+00:00",
+   "por": "Claude (chat 20-nov)",
+   "nota": "Rehecho con OK de Xavi: título cortado arreglado y donbigotes.app en pantalla. Misma voz (0 créditos). Pendiente cambiar el vídeo en Metricool."
   }
  ],
  "voz": {
@@ -71,12 +77,18 @@
   "creditos": 119
  },
  "salida": {
-  "mp4": "lote-2026-11-23/otros-paises-es.mp4",
-  "sha256": "bb3c6ae34eab7170fe6fdb6cd3556f8c76df2d926e5074c084bb78e3495c0923",
-  "bytes": 4477461
+  "mp4": "lote-2026-11-23/otros-paises-es-v2.mp4",
+  "sha256": "d85f75e9e6d5bdd95dabce2f69a3b6ac8cec26ff82d90f622c5ed992d4ca2841",
+  "bytes": 5297138
  },
  "metricool": {
   "tiktok": 431149311,
   "youtube": 431149323
+ },
+ "enlace": "donbigotes.app",
+ "salida_anterior": {
+  "mp4": "lote-2026-11-23/otros-paises-es.mp4",
+  "sha256": "bb3c6ae34eab7170fe6fdb6cd3556f8c76df2d926e5074c084bb78e3495c0923",
+  "bytes": 4477461
  }
 }
