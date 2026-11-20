@@ -67,7 +67,7 @@
    "estado": "programado",
    "fecha": "2026-11-20T20:58:13+00:00",
    "por": "Claude (chat 20-nov)",
-   "nota": "Rehecho con OK de Xavi: título cortado arreglado y donbigotes.app en pantalla. Misma voz (0 créditos). Pendiente cambiar el vídeo en Metricool."
+   "nota": "Rehecho con OK de Xavi: título cortado arreglado y donbigotes.app en pantalla. Misma voz (0 créditos). Vídeo cambiado en Metricool el 20-nov 22:00 (ids nuevos 436081347 y 436081387); comprobado que las copias de Metricool son el v2 (sha256 d85f75e9…)."
   }
  ],
  "voz": {
@@ -82,8 +82,10 @@
   "bytes": 5297138
  },
  "metricool": {
-  "tiktok": 431149311,
-  "youtube": 431149323
+  "tiktok": 436081347,
+  "youtube": 436081387,
+  "uuid_tiktok": "1881189014462549228",
+  "uuid_youtube": "4969622261954593716"
  },
  "enlace": "donbigotes.app",
  "salida_anterior": {
